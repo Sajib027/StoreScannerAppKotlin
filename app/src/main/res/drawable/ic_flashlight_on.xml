@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:width="24dp"
+    android:height="24dp">
+
+    <group android:name="torch">
+        <path
+            android:pathData="M10.533 10.564L3.02 18.077 6.423 21.48 13.936 13.967"
+            android:strokeWidth="1"
+            android:strokeColor="#8b8b8b" />
+        <path
+            android:pathData="M11.749 12.751C9.735 10.738 9.832 7.376 11.964 5.244l1.486 -1.486 3.646 3.646 3.646 3.646 -1.486 1.486c-2.132 2.132 -5.494 2.229 -7.507 0.215zm0 -6.806l6.806 6.806 -6.806 -6.806z"
+            android:strokeWidth="1"
+            android:strokeColor="#8b8b8b" />
+        <path
+            android:pathData="M9.804 14.696L8.392 16.108M16.61 4L17.096 2.542"
+            android:strokeWidth="1"
+            android:strokeLineJoin="round"
+            android:strokeLineCap="round"
+            android:strokeColor="#8b8b8b" />
+        <path
+            android:pathData="M19.04 5.46L20.5 4"
+            android:strokeWidth="1"
+            android:strokeLineJoin="round"
+            android:strokeLineCap="round"
+            android:strokeColor="#8b8b8b" />
+        <path
+            android:pathData="M20.5 7.89L21.958 7.404"
+            android:strokeWidth="1"
+            android:strokeLineJoin="round"
+            android:strokeLineCap="round"
+            android:strokeColor="#8b8b8b" />
+    </group>
+</vector>

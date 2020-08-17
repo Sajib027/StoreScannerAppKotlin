@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "291991301281",
+    "firebase_url": "https://kodakmoments-430ac.firebaseio.com",
+    "project_id": "kodakmoments-430ac",
+    "storage_bucket": "kodakmoments-430ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291991301281:android:3301c5dc046b8347",
+        "android_client_info": {
+          "package_name": "com.kodakalaris.advisor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291991301281-gr0qe4l6d3qjv39tuu706un64hqdk32k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMnqePPeL9ulJbBSIxHmw3ehhBcPnrbPA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291991301281:android:0437e86cec6d8430",
+        "android_client_info": {
+          "package_name": "com.kodakalaris.kodakmoments"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291991301281-gr0qe4l6d3qjv39tuu706un64hqdk32k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMnqePPeL9ulJbBSIxHmw3ehhBcPnrbPA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291991301281:android:e2fdfd779272acb3",
+        "android_client_info": {
+          "package_name": "com.kodakalaris.kodakmomentsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291991301281-gr0qe4l6d3qjv39tuu706un64hqdk32k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMnqePPeL9ulJbBSIxHmw3ehhBcPnrbPA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

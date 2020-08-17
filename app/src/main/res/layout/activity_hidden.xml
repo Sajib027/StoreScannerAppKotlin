@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@drawable/ic_bg_arc"
+    android:descendantFocusability="beforeDescendants"
+    android:id="@+id/main_content"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/rl_topview"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_ripple_effect"
+                android:padding="@dimen/_6sdp"
+                android:src="@drawable/ic_back"
+                android:contentDescription="@string/content_description_backbtn" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_40sdp"
+                android:layout_marginStart="@dimen/_40sdp"
+                android:fontFamily="@font/helvetica_neue_md"
+                android:padding="@dimen/_6sdp"
+                android:text="@string/lb_backdoor_screen_title"
+                android:textColor="@android:color/white"
+                android:textSize="22sp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/scrollView"
+            android:layout_below="@+id/rl_topview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/current_server_url"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:text="@string/current_server_url"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    android:fontFamily="@font/helvetica_neue_lt" />
+
+                <TextView
+                    android:id="@+id/tvSelectUrl"
+                    android:layout_below="@+id/current_server_url"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="@dimen/_60sdp"
+                    android:fontFamily="@font/helvetica_neue_md"
+                    android:text="@string/select_server_url"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <Spinner
+                    android:id="@+id/spinnerMode"
+                    android:layout_below="@+id/tvSelectUrl"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_45sdp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="12dp"
+                    android:padding="8dp"
+                    android:background="@drawable/ic_white_round_bg"
+                    android:spinnerMode="dropdown" />
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayout"
+                    android:layout_below="@+id/spinnerMode"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_45sdp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/ic_white_round_bg">
+
+                    <ImageView
+                        android:id="@+id/ivEditUrl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/_5sdp"/>
+
+                    <EditText
+                        android:id="@+id/etServerUrl"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_toLeftOf="@+id/ivEditUrl"
+                        android:autofillHints="@string/error_empty_url"
+                        android:background="@color/transparent"
+                        android:fontFamily="@font/helvetica_neue_md"
+                        android:gravity="left|center"
+                        android:hint="@string/lb_hint_url"
+                        android:inputType="text|textNoSuggestions"
+                        android:lines="1"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:singleLine="true"
+                        android:textColor="@color/snackBarColor"
+                        android:textColorHighlight="@color/Teal"
+                        android:textColorHint="@color/text_hint_color"
+                        android:textCursorDrawable="@null"
+                        android:textSize="17sp" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/lbNewsUrl"
+                    android:layout_below="@+id/relativeLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/helvetica_neue_md"
+                    android:text="News Url"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"/>
+
+                <RelativeLayout
+                    android:id="@+id/rl_news_layout"
+                    android:layout_below="@+id/lbNewsUrl"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_45sdp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/ic_white_round_bg">
+
+                    <ImageView
+                        android:id="@+id/ivEditNewsUrl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/_5sdp" />
+
+                    <EditText
+                        android:id="@+id/etNewsUrl"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_toLeftOf="@+id/ivEditNewsUrl"
+                        android:autofillHints="@string/error_empty_url"
+                        android:background="@color/transparent"
+                        android:fontFamily="@font/helvetica_neue_md"
+                        android:gravity="left|center"
+                        android:hint="@string/lb_hint_news_url"
+                        android:inputType="text|textNoSuggestions"
+                        android:lines="1"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:singleLine="true"
+                        android:textColor="@color/snackBarColor"
+                        android:textColorHighlight="@color/Teal"
+                        android:textColorHint="@color/textDrawableColor"
+                        android:textCursorDrawable="@null"
+                        android:textSize="17sp" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/lbHelpUrl"
+                    android:layout_below="@+id/rl_news_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/helvetica_neue_md"
+                    android:text="Help Url"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"/>
+
+                <RelativeLayout
+                    android:id="@+id/rl_help_layout"
+                    android:layout_below="@+id/lbHelpUrl"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_45sdp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/ic_white_round_bg">
+
+                    <ImageView
+                        android:id="@+id/ivEditHelpUrl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/_5sdp" />
+
+                    <EditText
+                        android:id="@+id/etHelpUrl"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_toLeftOf="@+id/ivEditHelpUrl"
+                        android:autofillHints="@string/error_empty_url"
+                        android:background="@color/transparent"
+                        android:fontFamily="@font/helvetica_neue_md"
+                        android:gravity="left|center"
+                        android:hint="@string/lb_hint_help_url"
+                        android:inputType="text|textNoSuggestions"
+                        android:lines="1"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:singleLine="true"
+                        android:textColor="@color/snackBarColor"
+                        android:textColorHighlight="@color/Teal"
+                        android:textColorHint="@color/textDrawableColor"
+                        android:textCursorDrawable="@null"
+                        android:textSize="17sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_log"
+                    android:layout_below="@+id/rl_help_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp">
+
+                    <Switch
+                        android:id="@+id/switch_enablelog"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_centerHorizontal="true"
+                        android:drawablePadding="@dimen/_6sdp"
+                        android:text="@string/lb_activate_log"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.497"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rl_autocomplete"
+                    android:layout_below="@+id/rl_log"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="10dp">
+
+                    <Switch
+                        android:id="@+id/switch_autocomplete_task"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_centerHorizontal="true"
+                        android:drawablePadding="@dimen/_6sdp"
+                        android:text="@string/lb_autocomplete_task"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.497"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/btn_Save"
+                    android:layout_below="@+id/rl_log"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_42sdp"
+                    android:layout_gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="@dimen/_50sdp"
+                    android:background="@drawable/ic_btn_bg"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:fontFamily="@font/helvetica_neue_md"
+                    android:letterSpacing="@dimen/letter_spacing"
+                    android:text="@string/update_server_url"
+                    android:textColor="@android:color/white"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/txt_mail_push_info"
+                    android:layout_below="@+id/btn_Save"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/text_ripple_effect"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:fontFamily="@font/helvetica_neue_bd"
+                    android:letterSpacing="@dimen/letter_spacing"
+                    android:padding="@dimen/_6sdp"
+                    android:text="@string/lb_send_mail_regarding_push"
+                    android:textColor="@color/fontPrimary"
+                    android:textSize="12sp"/>
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+        <ProgressBar
+            android:id="@+id/loader_update_serverurl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            android:progressTint="@android:color/white" />
+
+    </RelativeLayout>
+
+
+</ScrollView>

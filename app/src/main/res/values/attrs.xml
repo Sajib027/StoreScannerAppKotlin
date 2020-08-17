@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AppNavigationDrawer">
+        <attr name="appbarColor" format="color" />
+        <attr name="appbarTitleTextColor" format="color" />
+        <attr name="appbarTitleTextSize" format="dimension"/>
+        <attr name="HamMenuIconTintColor" format="color" />
+        <attr name="HamMenuIconSize" format="dimension" />
+        <attr name="HamMenuItemSemiTransparentColor" format="color" />
+        <attr name="navigationDrawerBackgroundColor" format="color" />
+        <attr name="primaryMenuItemTextColor" format="color" />
+        <attr name="secondaryMenuItemTextColor" format="color" />
+        <attr name="primaryMenuItemTextSize" format="dimension"/>
+        <attr name="secondaryMenuItemTextSize" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="CircleIndicator">
+        <attr name="ci_width" format="dimension"/>
+        <attr name="ci_height" format="dimension"/>
+        <attr name="ci_margin" format="dimension"/>
+        <attr name="ci_animator" format="reference"/>
+        <attr name="ci_animator_reverse" format="reference"/>
+        <attr name="ci_drawable" format="reference"/>
+        <attr name="ci_drawable_unselected" format="reference"/>
+
+        <attr name="ci_orientation" format="enum">
+            <!-- Defines an horizontal widget. -->
+            <enum name="horizontal" value="0"/>
+            <!-- Defines a vertical widget. -->
+            <enum name="vertical" value="1"/>
+        </attr>
+
+        <attr name="ci_gravity">
+            <!-- Push object to the top of its container, not changing its size. -->
+            <flag name="top" value="0x30"/>
+            <!-- Push object to the bottom of its container, not changing its size. -->
+            <flag name="bottom" value="0x50"/>
+            <!-- Push object to the left of its container, not changing its size. -->
+            <flag name="left" value="0x03"/>
+            <!-- Push object to the right of its container, not changing its size. -->
+            <flag name="right" value="0x05"/>
+            <!-- Place object in the vertical center of its container, not changing its size. -->
+            <flag name="center_vertical" value="0x10"/>
+            <!-- Grow the vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill_vertical" value="0x70"/>
+            <!-- Place object in the horizontal center of its container, not changing its size. -->
+            <flag name="center_horizontal" value="0x01"/>
+            <!-- Grow the horizontal size of the object if needed so it completely fills its container. -->
+            <flag name="fill_horizontal" value="0x07"/>
+            <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
+            <flag name="center" value="0x11"/>
+            <!-- Grow the horizontal and vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill" value="0x77"/>
+            <!-- Additional option that can be set to have the top and/or bottom edges of
+            the child clipped to its container's bounds.
+            The clip will be based on the vertical gravity: a top gravity will clip the bottom
+            edge, a bottom gravity will clip the top edge, and neither will clip both edges. -->
+            <flag name="clip_vertical" value="0x80"/>
+            <!-- Additional option that can be set to have the left and/or right edges of
+            the child clipped to its container's bounds.
+            The clip will be based on the horizontal gravity: a left gravity will clip the right
+            edge, a right gravity will clip the left edge, and neither will clip both edges. -->
+            <flag name="clip_horizontal" value="0x08"/>
+            <!-- Push object to the beginning of its container, not changing its size. -->
+            <flag name="start" value="0x00800003"/>
+            <!-- Push object to the end of its container, not changing its size. -->
+            <flag name="end" value="0x00800005"/>
+        </attr>
+
+    </declare-styleable>
+
+    <declare-styleable name="CardStackView">
+        <attr name="visibleCount" format="integer"/>
+        <attr name="swipeThreshold" format="float"/>
+        <attr name="translationDiff" format="float"/>
+        <attr name="scaleDiff" format="float"/>
+        <attr name="stackFrom" format="enum">
+            <enum name="bottom" value="0"/>
+            <enum name="top" value="1"/>
+        </attr>
+        <attr name="elevationEnabled" format="boolean"/>
+        <attr name="swipeEnabled" format="boolean"/>
+        <attr name="swipeDirection" format="enum">
+            <enum name="freedom" value="0"/>
+            <enum name="freedom_no_bottom" value="1"/>
+            <enum name="horizontal" value="2"/>
+            <enum name="vertical" value="3"/>
+        </attr>
+        <attr name="leftOverlay" format="reference"/>
+        <attr name="rightOverlay" format="reference"/>
+        <attr name="bottomOverlay" format="reference"/>
+        <attr name="topOverlay" format="reference"/>
+    </declare-styleable>
+
+</resources>

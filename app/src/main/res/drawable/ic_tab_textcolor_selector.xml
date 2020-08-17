@@ -1,0 +1,17 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- selected -->
+    <item
+        android:state_selected="true"
+        android:color="@color/colorAccent" />
+
+    <!-- not selected -->
+    <item
+        android:state_pressed="true"
+        android:color="@color/colorAccent" />
+
+    <!-- Default color -->
+    <item
+        android:color="@android:color/white" />
+
+</selector>

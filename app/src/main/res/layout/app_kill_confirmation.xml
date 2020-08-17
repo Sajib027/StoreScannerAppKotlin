@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/_24sdp"
+    android:paddingBottom="@dimen/_24sdp"
+    android:paddingLeft="@dimen/_20sdp"
+    android:paddingStart="@dimen/_20sdp"
+    android:paddingEnd="@dimen/_20sdp"
+    android:paddingRight="@dimen/_20sdp"
+    android:gravity="center|top"
+    android:background="@drawable/ic_white_round_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/msg_app_kill_confirmation"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:id="@+id/rl_allow_notification"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:paddingBottom="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/chkNotification"
+            android:checked="false"
+            android:textSize="17sp"
+            android:textColor="@color/textDrawableColor"
+            android:text="@string/msg_allow_notifcation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/tvCancel"
+            android:padding="@dimen/_10sdp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="13sp"
+            android:background="@drawable/ic_pass_dialog_btn"
+            android:fontFamily="@font/helvetica_neue_md"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/discard" />
+
+        <Button
+            android:id="@+id/tvYes"
+            android:padding="@dimen/_10sdp"
+            android:textSize="13sp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:background="@drawable/ic_pass_dialog_btn"
+            android:fontFamily="@font/helvetica_neue_md"
+            android:layout_height="wrap_content"
+            android:text="@string/label_yes" />
+    </RelativeLayout>
+
+</LinearLayout>

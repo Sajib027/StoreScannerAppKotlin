@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- These string constants is been used by date-time util class under /utils folder, currently not usin on app -->
+    <string name="time_ago_now">few moments ago</string>
+    <string name="time_ago_full_seconds">%1$d seconds ago</string>
+    <string name="time_ago_full_minute">%1$d minute ago</string>
+    <string name="time_ago_full_minutes">%1$d minutes ago</string>
+    <string name="time_ago_full_hour">%1$d hour ago</string>
+    <string name="time_ago_full_hours">%1$d hours ago</string>
+    <string name="time_ago_full_yesterday_at">Yesterday at %1$s</string>
+    <string name="time_ago_full_days">%1$d days ago</string>
+    <string name="time_ago_full_month">%1$d month ago</string>
+    <string name="time_ago_full_months">%1$d months ago</string>
+    <string name="time_ago_seconds">%1$d sec ago</string>
+    <string name="time_ago_minute">%1$d min ago</string>
+    <string name="time_ago_minutes">%1$d min ago</string>
+    <string name="time_ago_hour">%1$d h ago</string>
+    <string name="time_ago_hours">%1$d h ago</string>
+    <string name="time_ago_yesterday_at">Yesterday at %1$s</string>
+    <string name="time_ago_days">%1$d d ago</string>
+    <string name="time_ago_month">%1$d m ago</string>
+    <string name="time_ago_months">%1$d m ago</string>
+    <!-- end -->
+
+    <!-- These string constants is been used by accessiblity for description-->
+    <string name="content_description_kodaklogo">Kodak Logo</string>
+    <string name="content_description_bg">Kodak Moments Background Image</string>
+    <string name="content_description_editfield">Edit Field</string>
+    <string name="content_description_userimage">User Image</string>
+    <string name="content_description_scannerbg">QR Code Scanner Background</string>
+    <string name="content_description_close">Close Button</string>
+    <string name="content_description_scannerline">QR Code Scanner line or bar</string>
+    <string name="content_description_backbtn">Back Button</string>
+    <string name="content_description_checkbtn">Check Button</string>
+    <string name="content_description_allbadge">All open events badge count</string>
+    <string name="content_description_mybadge">My progress badge count</string>
+    <string name="content_description_menuicon">App Menu Item Icon</string>
+    <string name="content_description_eventimage">Event Image</string>
+    <string name="content_description_eventhelpimg">Event Help Image</string>
+    <string name="content_description_divider">Event Card Divider</string>
+    <string name="content_description_expandimg">Event Expand Image</string>
+    <!-- end -->
+
+    <string name="app_name">Assistent</string>
+    <string name="permission_camera_rationale">Der Zugriff auf die Kamera wird zum Scannen von Barcode / QRCode benötigt</string>
+    <string name="permission_phonestate_rationale">Der Zugriff auf den Telefonstatus wird zum Erkennen der Geräte-ID benötigt</string>
+    <string name="no_camera_permission">Diese Anwendung kann nicht ausgeführt werden, da sie nicht über die Kameraberechtigung verfügt. Die Anwendung wird jetzt beendet.</string>
+    <string name="no_phonestate_permission">Diese Anwendung kann das Geschäft nicht registrieren, da sie nicht über die Telefonstatusberechtigung verfügt. Die Anwendung wird jetzt beendet.</string>
+    <string name="low_storage_error">Gesichtsdetektor-Abhängigkeiten können aufgrund des geringen Gerätespeichers nicht heruntergeladen werden</string>
+    <string name="sub_title">Ver. 1.0</string>
+    <string name="barcode_hint">Tippe, um den Store zu registrieren. Zum Vergrößern zoomen</string>
+    <string name="info">info</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="msg_register_success">Der Shop wurde erfolgreich registriert</string>
+    <string name="register_store_prompt">Registrieren Store mit der ID:%s?</string>
+    <string name="error_on_barcode">Fehler beim Erkennen von storeId von Barcode / QRCode</string>
+    <string name="error_detecting_deviceid_storeid">Fehler beim Registrieren des Geschäfts: deviceId oder StoreId ist nicht verfügbar</string>
+    <string name="error_while_register">Fehler beim Registrieren des Geschäfts:%s</string>
+    <string name="error_empty_url">Bitte geben Sie die Basis-URL ein</string>
+    <string name="error_empty_news_url">Bitte geben Sie die News-URL ein</string>
+    <string name="error_empty_help_url">Bitte geben Sie die Hilfe-URL ein</string>
+    <string name="lb_start">START</string>
+    <string name="lb_change_store_withquestion">Filiale/Name ändern?</string>
+    <string name="lb_change_store">ÜBERNEHMEN</string>
+    <string name="lb_change_store_heading">Filiale/Name ändern</string>
+    <string name="lb_registration_heading">Registrierung</string>
+    <string name="lb_here">HIER</string>
+    <string name="lb_welcome">WILLKOMMEN</string>
+    <string name="lb_username">Sarah Meier</string>
+    <string name="lb_inthe_branch">IN DER FILIALE:</string>
+    <string name="lb_address">Filiale 1117 Königsstraße 27011 Stuttgart</string>
+    <string name="lb_qrcode_scanner">Filiale ändern</string>
+    <string name="lb_scan_msg">Zum Wechseln der Filiale\nQR-Code am Kiosk scannen:</string>
+    <string name="lb_enter_yourname">Dein Name</string>
+    <string name="lb_hint_yourname">z.B. Sarah Meir</string>
+    <string name="lb_qrcode_scanner_heading">QR-Code Scannen</string>
+    <string name="invalid_storeid">Ungültige Geschäfts-ID</string>
+    <string name="invalid_responder">Erforderlicher Name</string>
+    <string name="msg_work_underprogress">Arbeit läuft …</string>
+    <string name="ok">OK</string>
+    <string name="lb_assignments_title">Aufträge</string>
+    <string name="navigation_drawer_open">Öffnen Sie die Navigationsleiste</string>
+    <string name="navigation_drawer_close">Schließen Sie die Navigationsleiste</string>
+    <string name="lb_hint_url">Enter Server URl</string>
+    <string name="lb_hint_news_url">Enter News URL</string>
+    <string name="lb_hint_help_url">Enter Help URL</string>
+
+    <string name="nav_header_desc">Benutzerbild</string>
+    <string name="nav_header_username">Sarah Müller</string>
+    <string name="nav_header_address">Personal-Nr. 123456</string>
+    <string name="lb_menu_assignments">Aufträge</string>
+    <string name="lb_menu_news">News</string>
+    <string name="lb_menu_tickets">Tickets</string>
+    <string name="lb_menu_help">Hilfe</string>
+    <string name="lb_menu_storeinfo">Filial Info</string>
+    <string name="lb_menu_servicecall">Serviceanruf</string>
+    <string name="lb_menu_settings">Einstellungen</string>
+    <string name="lb_all">Alle</string>
+    <string name="lb_my">Meine</string>
+    <string name="lb_inprogressorcompleted_title">In Bearbeitung</string>
+    <string name="lb_backdoor_screen_title">APP Konfiguration</string>
+
+    <string name="label_noevents">Keine Ereignisse verfügbar</string>
+    <string name="label_version">Version</string>
+    <string name="label_do_not_bother">Nicht stören</string>
+    <string name="label_take_over_job">Auftrag übernehmen</string>
+    <string name="label_save">SPAREN</string>
+    <string name="error_common">Ein Fehler ist aufgetreten. Bitte versuchen Sie es später erneut</string>
+    <string name="error_allocation_msg">Das Ereignis wurde erfolgreich zugewiesen</string>
+
+    <string name="lb_storeinfo_fragment">Filial Info Seite</string>
+    <string name="lb_servicecall_fragment">Serviceanruf Seite</string>
+    <string name="lb_settings_fragment">Einstellungen Seite</string>
+    <string name="exception_message">Ein interner Fehler ist aufgetreten</string>
+    <string name="lb_myevent_notavail">Es sind keine Aufträge vorhanden.\nFreuen Sie sich ;-)</string>
+    <string name="lb_myevent_history_notavail"></string>
+    <string name="lb_myevent_completed">Erledigt</string>
+    <string name="help_title">Hilfe-Ereignis</string>
+    <string name="reboot_title">Neustart</string>
+    <string name="default_event_title">Veranstaltungstitel</string>
+    <string name="default_event_description">Eventbeschreibung</string>
+    <string name="reboot_description">Das System wird neu gestartet…</string>
+    <string name="help_description">Bitte unterstützen Sie den Kunden bei der Fotobuch-Erstellung.</string>
+    <string name="lb_customer">Kunde</string>
+    <string name="lb_service">Service</string>
+    <string name="lb_event_marked_completed">Markierte Meldung erledigt</string>
+    <string name="lb_error_event_marked_completed">Fehler beim Beenden des Ereignisses</string>
+
+    <string name="lb_current_store">Aktuelle Filiale</string>
+    <string name="lb_store_changed_successfully">Filiale erfolgreich geändert</string>
+    <string name="lb_event_fetched_successfully">Ereignisse wurden erfolgreich abgerufen</string>
+    <string name="not_a_valid_qrcode">Not a valid QR Code</string>
+    <string name="lb_send_mail_regarding_push">Senden Sie eine Mail mit PushNotification Info</string>
+    <string name="lb_required_username">Erforderlicher Benutzername</string>
+    <string name="lb_under_development">In Entwicklung…</string>
+    <string name="msg_fetching_events_error">Fehler beim Abrufen von Zuweisungen</string>
+    <string name="error_no_internet_connection">Keine Internetverbindung :(</string>
+    <style name="error_accepting_events">Fehler beim Akzeptieren der Zuweisung</style>
+    <string name="msg_noothersinprogress">Keine andere Inprogress-Zuweisung zum Anzeigen</string>
+    <string name="lb_vibration">Vibration</string>
+    <string name="lb_activate_log">Activate Log</string>
+    <string name="lb_autocomplete_task">Autocomplete Task</string>
+    <string name="lb_volume">Ton</string>
+    <string name="lb_kpk_help">Kiosk Help</string>
+    <string name="lb_notification">Benachrichtigung</string>
+
+    <string name="datetimeformat">HH:mm</string>
+    <string name="min_ago">vor %1$d min</string>
+    <string name="dateformat">yyyyMMdd</string>
+
+    <string name="notification_summary">Sie haben %d neue Meldungen!</string>
+    <string name="msg_password_required">Bitte geben Sie Ihr Passwort ein</string>
+    <string name="msg_app_kill_confirmation">Sind Sie sicher, dass Sie \ndie APP beenden wollen?</string>
+    <string name="msg_password_notmatched">Entschuldigung, Passwort stimmt nicht überein</string>
+    <string name="proceed">OK</string>
+    <string name="discard">ABBRUCH</string>
+    <string name="label_yes">JA</string>
+    <string name="pass_prompt">%d mehr zu gehen</string>
+    <string name="select_server_url">Wählen Sie die Server-URL aus:</string>
+    <string name="current_server_url">Aktuelle Server-URL: %s</string>
+    <string name="update_server_url">Aktualisieren</string>
+    <string name="error_no_changes_detected">Keine Änderungen festgestellt</string>
+    <string name="invalid_deviceid">Ungültige Geräte-ID</string>
+    <string name="no_description_avail">Keine Beschreibung</string>
+    <string name="store_id">Filial-ID</string>
+    <string name="msg_allow_notifcation">Keine Nachrichten wenn APP beendet ist.</string>
+    <string name="help_event_desc">Kunde benötigt Hilfe</string>
+
+</resources>

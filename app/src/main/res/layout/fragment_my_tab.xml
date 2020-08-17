@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.tab.MyTabFragment">
+
+    <!-- my tab containers -->
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager_myevents"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_164sdp"
+        android:layout_marginTop="68dp"
+        android:paddingLeft="@dimen/_24sdp"
+        android:paddingStart="@dimen/_24sdp"
+        android:paddingRight="@dimen/_24sdp"
+        android:paddingEnd="@dimen/_24sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <com.kodakalaris.advisor.custom.CircleIndicator
+        android:id="@+id/pager_indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:animateLayoutChanges="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pager_myevents">
+
+    </com.kodakalaris.advisor.custom.CircleIndicator>
+
+    <TextView
+        android:id="@+id/txt_myevent_notavail"
+        android:layout_width="@dimen/_248sdp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="@dimen/_12sdp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:fontFamily="@font/helvetica_neue_md"
+        android:text="@string/lb_myevent_notavail"
+        app:layout_constraintTop_toTopOf="@+id/pager_myevents"
+        app:layout_constraintBottom_toBottomOf="@+id/pager_myevents"
+        app:layout_constraintLeft_toLeftOf="@+id/pager_myevents"
+        app:layout_constraintRight_toRightOf="@+id/pager_myevents"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/container_mycompleted"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_264sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/helvetica_neue_md"
+            android:letterSpacing="0.1"
+            android:text="@string/lb_myevent_completed"
+            android:textAllCaps="true"
+            android:textColor="#404040"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.025"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txt_myevent_history_notavail"
+            android:layout_width="@dimen/_248sdp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="@dimen/_12sdp"
+            android:textColor="@color/Light_Grey"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:fontFamily="@font/helvetica_neue_md"
+            android:text="@string/lb_myevent_history_notavail"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_myevents_history"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="36dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" >
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- my tab containers -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

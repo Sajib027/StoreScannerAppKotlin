@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <shape android:dither="true" android:shape="rectangle">
+            <gradient android:angle="180" android:endColor="#36d0021b" android:startColor="#33ed0000" />
+            <size android:height="54dp" android:width="185dp" />
+            <solid android:color="@color/colorAccent"/>
+            <!--corners allow us to make the rounded corners button-->
+            <corners android:bottomLeftRadius="0dp" android:bottomRightRadius="32dp" android:topLeftRadius="0dp" android:topRightRadius="32dp" />
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <shape android:dither="true" android:shape="rectangle">
+            <gradient android:angle="180" android:endColor="#36d0021b" android:startColor="#33ed0000" />
+            <size android:height="54dp" android:width="185dp" />
+            <solid android:color="@color/colorAccent"/>
+            <!--corners allow us to make the rounded corners button-->
+            <corners android:bottomLeftRadius="0dp" android:bottomRightRadius="32dp" android:topLeftRadius="0dp" android:topRightRadius="32dp" />
+        </shape>
+    </item>
+    <item android:state_enabled="false">
+        <shape android:dither="true" android:shape="rectangle">
+            <gradient android:angle="180" android:endColor="#36d0021b" android:startColor="#33ed0000" />
+            <size android:height="54dp" android:width="185dp" />
+            <solid android:color="@color/btnDisabled"/>
+            <!--corners allow us to make the rounded corners button-->
+            <corners android:bottomLeftRadius="0dp" android:bottomRightRadius="32dp" android:topLeftRadius="0dp" android:topRightRadius="32dp" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:dither="true" android:shape="rectangle">
+            <gradient android:angle="180" android:endColor="#36d0021b" android:startColor="#33ed0000" />
+            <size android:height="54dp" android:width="185dp" />
+            <!--<solid android:color="@color/colorAccent"/>-->
+            <!--corners allow us to make the rounded corners button-->
+            <corners android:bottomLeftRadius="0dp" android:bottomRightRadius="32dp" android:topLeftRadius="0dp" android:topRightRadius="32dp" />
+        </shape>
+    </item>
+    <item>
+        <shape android:dither="true" android:shape="rectangle">
+            <gradient android:angle="180" android:endColor="#36d0021b" android:startColor="#33ed0000" />
+            <size android:height="54dp" android:width="185dp" />
+            <solid android:color="@android:color/transparent"/>
+            <!--corners allow us to make the rounded corners button-->
+            <corners android:bottomLeftRadius="0dp" android:bottomRightRadius="32dp" android:topLeftRadius="0dp" android:topRightRadius="32dp" />
+        </shape>
+    </item>
+</selector>

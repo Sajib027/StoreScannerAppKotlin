@@ -1,0 +1,172 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- These string constants is been used by date-time util class under /utils folder, currently not usin on app -->
+    <string name="time_ago_now">few moments ago</string>
+    <string name="time_ago_full_seconds">%1$d seconds ago</string>
+    <string name="time_ago_full_minute">%1$d minute ago</string>
+    <string name="time_ago_full_minutes">%1$d minutes ago</string>
+    <string name="time_ago_full_hour">%1$d hour ago</string>
+    <string name="time_ago_full_hours">%1$d hours ago</string>
+    <string name="time_ago_full_yesterday_at">Yesterday at %1$s</string>
+    <string name="time_ago_full_days">%1$d days ago</string>
+    <string name="time_ago_full_month">%1$d month ago</string>
+    <string name="time_ago_full_months">%1$d months ago</string>
+    <string name="time_ago_seconds">%1$d sec ago</string>
+    <string name="time_ago_minute">%1$d min ago</string>
+    <string name="time_ago_minutes">%1$d min ago</string>
+    <string name="time_ago_hour">%1$d h ago</string>
+    <string name="time_ago_hours">%1$d h ago</string>
+    <string name="time_ago_yesterday_at">Yesterday at %1$s</string>
+    <string name="time_ago_days">%1$d d ago</string>
+    <string name="time_ago_month">%1$d m ago</string>
+    <string name="time_ago_months">%1$d m ago</string>
+    <!-- end -->
+
+    <!-- These string constants is been used by accessiblity for description-->
+    <string name="content_description_kodaklogo">Kodak Logo</string>
+    <string name="content_description_bg">Kodak Moments Background Image</string>
+    <string name="content_description_editfield">Edit Field</string>
+    <string name="content_description_userimage">User Image</string>
+    <string name="content_description_scannerbg">QR Code Scanner Background</string>
+    <string name="content_description_close">Close Button</string>
+    <string name="content_description_scannerline">QR Code Scanner line or bar</string>
+    <string name="content_description_backbtn">Back Button</string>
+    <string name="content_description_checkbtn">Check Button</string>
+    <string name="content_description_allbadge">All open events badge count</string>
+    <string name="content_description_mybadge">My progress badge count</string>
+    <string name="content_description_menuicon">App Menu Item Icon</string>
+    <string name="content_description_eventimage">Event Image</string>
+    <string name="content_description_eventhelpimg">Event Help Image</string>
+    <string name="content_description_divider">Event Card Divider</string>
+    <string name="content_description_expandimg">Event Expand Image</string>
+    <!-- end -->
+
+    <string name="app_name">Advisor</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for scanning barcode/qrcode</string>
+    <string name="permission_phonestate_rationale">Access to the phone state is needed for detecting deviceId</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="no_phonestate_permission">This application cannot register store because it does not have the phone state permission. The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="sub_title">Ver. 1.0</string>
+    <string name="barcode_hint">Tap to register store. Pinch/Stretch to zoom</string>
+    <string name="info">info</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="msg_register_success">Store registered successfully</string>
+    <string name="register_store_prompt">Register Store with id: %s?</string>
+    <string name="error_on_barcode">Error detecting storeId from barcode/qrcode</string>
+    <string name="error_detecting_deviceid_storeid">Error while registering store: deviceId or StoreId is not available</string>
+    <string name="error_while_register">Error while registering store: %s</string>
+    <string name="error_empty_url">Please enter the base url</string>
+    <string name="error_empty_news_url">Please enter the news url</string>
+    <string name="error_empty_help_url">Please enter the help url</string>
+    <string name="lb_start">START</string>
+    <string name="lb_change_store_withquestion">Change store/name?</string>
+    <string name="lb_change_store">OK</string>
+    <string name="lb_change_store_heading">Change store/name</string>
+    <string name="lb_registration_heading">Registration</string>
+    <string name="lb_here">HERE</string>
+    <string name="lb_welcome">WELCOME</string>
+    <string name="lb_username">Sarah Meier</string>
+    <string name="lb_inthe_branch">IN THE STORE:</string>
+    <string name="lb_address">Filiale 1117  Königsstraße 27011 Stuttgart</string>
+    <string name="lb_qrcode_scanner">Set/change store</string>
+    <string name="lb_scan_msg">To switch Stores, scan QR code at the kiosk:</string>
+    <string name="lb_enter_yourname">Your name</string>
+    <string name="lb_hint_yourname">e.g. Sarah Meir</string>
+    <string name="lb_qrcode_scanner_heading">QR-Code Scanner</string>
+    <string name="invalid_storeid">Invalid store id</string>
+    <string name="invalid_responder">Required name</string>
+    <string name="msg_work_underprogress">Work under progress …</string>
+    <string name="ok">OK</string>
+    <string name="lb_assignments_title">Assignments</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="lb_hint_url">Enter Server URL</string>
+    <string name="lb_hint_news_url">Enter News URL</string>
+    <string name="lb_hint_help_url">Enter Help URL</string>
+
+    <string name="nav_header_desc">User Picture</string>
+    <string name="nav_header_username">Sarah Müller</string>
+    <string name="nav_header_address">Personal-Nr. 123456</string>
+    <string name="lb_menu_assignments">Assignments</string>
+    <string name="lb_menu_news">News</string>
+    <string name="lb_menu_tickets">Tickets</string>
+    <string name="lb_menu_help">Help</string>
+    <string name="lb_menu_storeinfo">Store Info</string>
+    <string name="lb_menu_servicecall">Service Call</string>
+    <string name="lb_menu_settings">Settings</string>
+    <string name="lb_all">All</string>
+    <string name="lb_my">My</string>
+    <string name="lb_inprogressorcompleted_title">In progress</string>
+    <string name="lb_backdoor_screen_title">APP Configuration</string>
+
+    <string name="label_noevents">No events available</string>
+    <string name="label_version">Version</string>
+    <string name="label_do_not_bother">Do not disturb</string>
+    <string name="label_take_over_job">ASSIGN TO ME</string>
+    <string name="label_save">SAVE</string>
+    <string name="error_common">Something went wrong please try again later</string>
+    <string name="error_allocation_msg">Event is assigned successfully</string>
+
+    <string name="lb_storeinfo_fragment">Store info page</string>
+    <string name="lb_servicecall_fragment">Service call page</string>
+    <string name="lb_settings_fragment">Settings page</string>
+    <string name="exception_message">Internal error occurred</string>
+    <string name="lb_myevent_notavail">No events!\nEnjoy it ;-)</string>
+    <string name="lb_myevent_history_notavail"></string>
+    <string name="lb_myevent_completed">Completed</string>
+    <string name="help_title">Help Event</string>
+    <string name="reboot_title">Rebooting</string>
+    <string name="default_event_title">Event title</string>
+    <string name="default_event_description">Event Description</string>
+    <string name="reboot_description">System is rebooting…</string>
+    <string name="help_description">Please support the customer with the photo book creation.</string>
+    <string name="lb_customer">Customer</string>
+    <string name="lb_service">Service</string>
+    <string name="lb_event_marked_completed">Marked message done</string>
+    <string name="lb_error_event_marked_completed">Error on completing event</string>
+
+    <string name="lb_current_store">Current store</string>
+    <string name="lb_store_changed_successfully">Store successfully changed</string>
+    <string name="lb_event_fetched_successfully">Events fetched successfully</string>
+    <string name="not_a_valid_qrcode">Not a valid QR Code</string>
+    <string name="lb_send_mail_regarding_push">Send mail with PushNotification Info</string>
+    <string name="lb_required_username">Required username</string>
+    <string name="lb_under_development">In development…</string>
+    <string name="msg_fetching_events_error">Error while fetching assignments</string>
+    <string name="error_no_internet_connection">No internet connection :(</string>
+    <string name="error_accepting_events">Error while accepting assignment</string>
+    <string name="msg_noothersinprogress">No other\'s inprogress assignment to show</string>
+    <string name="lb_vibration">Vibration</string>
+    <string name="lb_activate_log">Activate Log</string>
+    <string name="lb_autocomplete_task">Autocomplete Task</string>
+    <string name="lb_volume">Volume</string>
+    <string name="lb_notification">Notification</string>
+    <string name="lb_kpk_help">Kiosk Help</string>
+    <string name="datetimeformat">hh:mm a</string>
+    <string name="min_ago">%1$d min ago</string>
+    <string name="dateformat">yyyyMMdd</string>
+
+    <string name="notification_summary">You have %d new messages!</string>
+    <string name="msg_password_required">Please enter your password</string>
+    <string name="msg_app_kill_confirmation">Are you sure you want \nto exit the app?</string>
+    <string name="msg_password_notmatched">Sorry, Password do not match</string>
+    <string name="proceed">OK</string>
+    <string name="discard" tools:ignore="ButtonCase">CANCEL</string>
+    <string name="label_yes">YES</string>
+    <string name="pass_prompt">%d more to go</string>
+    <string name="select_server_url">Select server url:</string>
+    <string name="current_server_url">Current server url: %s</string>
+    <string name="update_server_url">Update</string>
+    <string name="error_no_changes_detected">No changes detected</string>
+    <string name="invalid_deviceid">Invalid deviceid</string>
+    <string name="no_description_avail">No Description</string>
+    <string name="store_id">Store ID</string>
+    <string name="msg_allow_notifcation">Stop notification while APP is closed.</string>
+    <string name="help_event_desc">Customer needs help</string>
+
+    <!-- Default notification channel id -->
+    <string name="default_notification_channel_id">10004</string>
+
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#298ca4</color>
+    <color name="colorPrimaryAlpha">#dd298ca4</color>
+    <color name="colorPrimaryLight">#6f298ca4</color>
+    <color name="colorPrimaryDark">#298ca4</color>
+    <color name="colorAccent">#ed0000</color>
+    <color name="colorAccentDark">#c90000</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="btnDisabled">#88ed0000</color>
+
+    <color name="snackBarColor">#555555</color>
+    <color name="fabDisableColor">#88ed0000</color>
+
+    <color name="fontPrimary">#555555</color>
+    <color name="scannerLine">#ed0000</color>
+    <color name="screen_bg_color">#fbfbfb</color>
+    <color name="event_divider_color">#ededed</color>
+    <color name="text_hint_color">#88ffffff</color>
+
+    <color name="Dark_Grey">#555555</color>
+    <color name="Light_Grey">#8b8b8b</color>
+    
+    <color name="Slate">#4e5665</color>
+    <color name="kodakred">#ed0000</color>
+    <color name="switch_inactive">#ededed</color>
+    <color name="Teal">#88298ca4</color>
+    <color name="textDrawableColor">#bbbbbe</color>
+
+</resources>

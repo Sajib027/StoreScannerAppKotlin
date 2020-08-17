@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <font android:font="@font/helvetica_neue_bd" />
+    <font android:font="@font/helvetica_neue_it" />
+    <font android:font="@font/helvetica_neue_lt" />
+    <font android:font="@font/helvetica_neue_md" />
+    <font android:font="@font/helvetica_neue_roman" />
+    <font android:font="@font/helvetica_neue_th" />
+</font-family>

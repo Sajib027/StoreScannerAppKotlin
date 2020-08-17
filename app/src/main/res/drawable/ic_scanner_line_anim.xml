@@ -1,0 +1,15 @@
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportHeight="12"
+    android:viewportWidth="12">
+
+    <!-- Scale the canvas, then rotate, then translate, then draw the record icon. -->
+    <group android:translateX="2">
+        <path
+            android:fillColor="@android:color/holo_red_dark"
+            android:pathData="M0,0 800,0 800,1 0,1z"/>
+    </group>
+
+</vector>
